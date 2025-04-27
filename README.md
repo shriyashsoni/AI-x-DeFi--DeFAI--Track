@@ -6,6 +6,10 @@ DeFAI is a **decentralized, AI-powered credit scoring and loan system** that lev
 
 ---
 
+
+
+
+
 ## **⚡ Features**
 ✅ **Decentralized Loan System** – Get instant loans with verifiable AI-based credit scores  
 ✅ **Stablecoin Transactions** – Loans issued and repaid using ERC-20 stablecoins  
@@ -25,38 +29,6 @@ DeFAI is a **decentralized, AI-powered credit scoring and loan system** that lev
 
 ---
 
-## **🚀 Setup Instructions**
-### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/YOUR_GITHUB/defai-credit-system.git
-cd defai-credit-system
-```
-
-### **2️⃣ Install Dependencies**
-```bash
-npm install
-```
-
-### **3️⃣ Configure Environment Variables**
-Create a `.env.local` file in the root directory and add:  
-```
-NEXT_PUBLIC_CONTRACT_ADDRESS=YOUR_DEPLOYED_CONTRACT_ADDRESS
-NEXT_PUBLIC_CHAINLINK_ORACLE=CHAINLINK_PRICE_FEED_ADDRESS
-```
-
-### **4️⃣ Compile and Deploy Smart Contracts**
-```bash
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network goerli
-```
-
-### **5️⃣ Start the Frontend**
-```bash
-npm run dev
-```
-
----
-
 ## **📜 Smart Contract Overview**
 ### **💰 Loan Contract (`DeFiAICreditSystem.sol`)**
 Handles loan issuance, repayments, and credit score tracking.
@@ -69,13 +41,12 @@ function getCreditScore(address user) public view returns (uint256);
 ---
 
 ## **📸 Screenshots**
-### 🏦 Loan Dashboard  
-![Loan Dashboard](https://via.placeholder.com/600x300?text=Loan+Dashboard)  
 
-### 📊 Credit Score Tracking  
-![Credit Score](https://via.placeholder.com/600x300?text=Credit+Score+System)  
-
----
+---![Home](https://github.com/user-attachments/assets/e7960777-2bb8-432d-965b-fc4ea9c40509) 
+![Screenshot 2025-04-27 194434](https://github.com/user-attachments/assets/5297b18e-88aa-4cb0-a090-92791312507d)
+![Screenshot 2025-04-27 194440](https://github.com/user-attachments/assets/e325a3f4-b0fc-4cee-ab23-ef97fc8b038c)
+![Screenshot 2025-04-27 194457](https://github.com/user-attachments/assets/f15768a4-4cf4-45a7-a618-153c5eef1c99)
+![Screenshot 2025-04-27 194502](https://github.com/user-attachments/assets/3746d1c9-32a8-4de2-b361-e92a9292c82a)
 
 ## **🛡 Security Considerations**
 - Smart contracts audited for vulnerabilities  
@@ -87,5 +58,5 @@ function getCreditScore(address user) public view returns (uint256);
 ## **📜 License**
 This project is **MIT Licensed**.  
 
-**Made with ❤️ for Flare x Google Verifiable AI Hackathon**  
+**Made  BY SHRIYASH SONI**
 
